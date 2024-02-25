@@ -99,12 +99,8 @@ class Tic_Tac_Toe():
         score_text = 'Click to play again \n'
         self.canvas.create_text(size_of_board / 2, 15 * size_of_board / 16, font="cmr 20 bold", fill="gray",
                                 text=score_text)
-
-    # ------------------------------------------------------------------
     # Logical Functions:
-    # The modules required to carry out game logic
-    # ------------------------------------------------------------------
-
+    # The modules required to carry out game logic 
     def convert_logical_to_grid_position(self, logical_position):
         logical_position = np.array(logical_position, dtype=int)
         return (size_of_board / 3) * logical_position + size_of_board / 6
