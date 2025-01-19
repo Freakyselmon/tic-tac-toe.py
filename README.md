@@ -1,6 +1,4 @@
 
-ChatGPT said:
-ChatGPT
 Tic-Tac-Toe Game 🎮❌⭕
 Welcome to the classic Tic-Tac-Toe game, built using Python and Tkinter! This graphical version of the beloved game offers an engaging and user-friendly experience.
 
